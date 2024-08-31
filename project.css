@@ -1,0 +1,285 @@
+
+
+          .search-container button {
+              background: rgb(11, 131, 131);
+          }
+
+          .app{
+            font-size: 15px;
+            color: gray;
+            padding: 10px;
+          }
+
+          .product{
+            font-size: 18px;
+            color: black;
+            font-weight: 600;
+          }
+
+          .list-1{
+            list-style-type: none;
+          }
+
+          .foot-1{
+            font-size: 25px;
+            color: black;
+            font-weight: 600;
+          }
+
+          .foot-1 img{
+            width: 100%;
+            max-width: 26%;
+          }
+
+            .seventh-section {
+                padding: 20px 75px 10px 75px;
+                border-top: 1px solid;
+                box-shadow: 4px 4px 4px 4px;
+            }
+
+            .btn-2 button{
+                background-color: darkcyan;
+                border: 1px solid darkcyan;
+                border-radius: 14px;
+                padding: 15px 40px 15px 40px;
+                margin-top: 20px;
+                color: black;
+                font-weight: 600;
+                
+            }
+
+          .img-1 img{
+    
+          width: 100%;
+          border-radius: 10px;
+          height: 84%;
+
+          }
+
+          .sixth-section {
+              text-align: center;
+              padding: 10px 75px 10px 75px;
+          }
+
+          .card{
+            box-shadow: 0px 4px 2px 0px;
+          }
+
+          .fifth-section{
+            padding: 12px 75px 33px 75px;
+            background-color: #fff;
+
+          }
+
+          .fourth-section {
+              padding: 12px 75px 33px 75px;
+          }
+
+          .fifth-section {
+              display: flex;
+              gap: 10px;
+          }
+
+          .card-body{
+            height: 90px;
+          }
+
+          .card-text{
+            font-size: 13px;
+          }
+
+          .left-side{
+            float: right;
+            font-size: 18px;
+            color:  rgb(32, 105, 105);
+            font-weight: 600;
+          }
+
+          .right-side{
+            float: left;
+            font-size: 18px;
+              color: black;
+              font-weight: 600;
+          }
+ 
+          .right-side img{
+            width: 100%;
+            max-width: 33px;
+            float: left;
+            padding-right: 10px;
+           }
+
+          .third-section {
+              display: flex;
+              gap: 12px;
+              padding:25px;
+              background-color: #fff;
+          }
+
+          p.para-2{
+            font-size: 17px;
+          }
+
+
+              p.para-1 {
+                  font-size: 30px;
+                  font-weight: 500;
+              }
+
+              .full-page{              
+                background-color: #f0ffff78;
+              }
+            
+          .sidepanel  {
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            height: 250px;
+            top: 0;
+            left: 0;
+            background-color: darkcyan;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+            color: black;
+          }
+          
+          .sidepanel a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: black;
+            display: block;
+            transition: 0.3s;
+          }
+          
+          .sidepanel a:hover {
+            color: #f1f1f1;
+          }
+          
+          .sidepanel .closebtn {
+            position: absolute;
+            top: 12px;
+            right: 25px;
+            background-color: black;
+            color: red;
+          
+            
+          }
+          
+          .openbtn {
+            font-size: 20px;
+            cursor: pointer;
+            background-color:darkcyan ;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+          }
+          
+          .openbtn:hover {
+            background-color: darkcyan;
+          }
+          
+           .search-container {
+            float: right;
+          }
+          
+          input[type=text] {
+            padding: 6px;
+            margin-top: 8px;
+            font-size: 17px;
+            border: none;
+            border-radius: 18px 0px 0px 18px;
+
+          }
+
+          button[type=submit]{
+        
+                border-radius: 0px 18px 18px 0px;
+            }
+          
+          .search-container button {
+            float: right;
+            padding: 6px 10px;
+            margin-top: 8px;
+            margin-right: 16px;
+            background: #ddd;
+            font-size: 17px;
+            border: none;
+            cursor: pointer;
+          }
+          
+           .search-container button:hover {
+            background: #ccc;
+          }
+          
+          .right-icon {
+              float: left;
+          }
+          
+          .right-icon img{
+            width:100%;
+            max-width: 30%;
+          }
+          
+          .top-navbar-1{
+            background: darkcyan;
+          
+          }
+
+          .btn-1{
+            margin-top: 18px;
+          }
+          
+             button.openbtn {
+            font-size: 25px;
+            color: #fff;
+            font-weight: 600;
+           }
+          .second-section{
+            text-align: center;
+            margin: 16px 20% 16px 20%;
+            border-bottom: 1px solid;
+            box-shadow: 5px 5px 5px 5px #888888;
+            background-color: #fff;
+          }
+          
+          .image img{
+            width: 100%;
+            max-width: 20%;
+          }
+
+          .image{
+            margin-top: 18px;
+          }
+
+
+          
+          .btn-1 button{
+            
+              background-color: darkcyan;
+              border: 2px solid darkcyan;
+              color: white;
+              border-radius: 12px;
+              padding: 10px;
+          
+          }
+          
+          
+          @media screen and (max-width: 600px) {
+            .topnav .search-container {
+              float: none;
+            }
+            .topnav a, .topnav input[type=text], .topnav .search-container button {
+              float: none;
+              display: block;
+              text-align: left;
+              width: 100%;
+              margin: 0;
+              padding: 14px;
+            }
+            .topnav input[type=text] {
+              border: 1px solid #ccc;  
+            }
+          }
+         
